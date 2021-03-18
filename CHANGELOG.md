@@ -1,5 +1,20 @@
 # Changelog
 
+## [1.21.0](https://www.github.com/GoogleCloudPlatform/cloudsql-proxy/compare/v1.20.2...v1.21.0) (2021-03-18)
+
+
+### Features
+
+* add support for structured logs ([#650](https://www.github.com/GoogleCloudPlatform/cloudsql-proxy/issues/650)) ([ca8993a](https://www.github.com/GoogleCloudPlatform/cloudsql-proxy/commit/ca8993a2110affa0b0cbbfdebf6f6bdd86004e9f))
+
+
+### Bug Fixes
+
+* **certs:** fix panic on error ([#682](https://www.github.com/GoogleCloudPlatform/cloudsql-proxy/issues/682)) ([e82815b](https://www.github.com/GoogleCloudPlatform/cloudsql-proxy/commit/e82815b474c3c34480d0cfee36a59998deb0ec1b))
+* **certs:** fix panic on error ([#682](https://www.github.com/GoogleCloudPlatform/cloudsql-proxy/issues/682)) ([710ed96](https://www.github.com/GoogleCloudPlatform/cloudsql-proxy/commit/710ed967b441150a7ed68a161f760a938d19b4c7))
+* lower refresh buffer and config throttle when IAM authn is enabled ([#680](https://www.github.com/GoogleCloudPlatform/cloudsql-proxy/issues/680)) ([58acab3](https://www.github.com/GoogleCloudPlatform/cloudsql-proxy/commit/58acab3b03375032501f17c85949db493af7a292))
+* prevent refreshCfg from scheduling multiple refreshes ([#666](https://www.github.com/GoogleCloudPlatform/cloudsql-proxy/issues/666)) ([52db349](https://www.github.com/GoogleCloudPlatform/cloudsql-proxy/commit/52db3492ac78a9a68218c2a12840c4016b1d0b99))
+
 ### [1.20.2](https://www.github.com/GoogleCloudPlatform/cloudsql-proxy/compare/v1.20.1...v1.20.2) (2021-03-05)
 
 
